@@ -1,0 +1,25 @@
+const form = document.querySelector('#doform')
+const input = document.querySelector('#todoInput')
+const ul = document.querySelector('ul')
+const removeBTN = document.querySelectorAll('#removeBTNS')
+
+form.addEventListener('submit',function(e){
+  e.preventDefault() 
+   const newLi = document.createElement('li')
+  const newBTN = document.createElement('button')
+  newLi.innerText = input.value
+  newBTN.innerText = 'Remove Me'
+  newLi.append(newBTN)
+  ul.appendChild(newLi)
+  localStorage.setItem('To-do',input.value)
+  input.value = ''
+  
+})
+ul.addEventListener('click',function(e){
+  if(e.target.tagName === 'BUTTON'){
+    e.target.parentElement.remove()
+  }
+})
+ul.addEventListener('click',function(e){
+  e.target.style.textDecoration = 'line-through'
+})
