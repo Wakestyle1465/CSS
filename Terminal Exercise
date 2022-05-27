@@ -1,0 +1,24 @@
+Part 1
+1. mkdir first
+2. ls  -t
+3. touch person.txt
+4. mv person.txt another.txt
+5. cp another.txt copy.txt
+6. rm copy.txt
+7. cd ..
+cp first second
+8.rf second
+
+Part 2.
+1. man shows the manual for a selected command, scroll with Enter key, get out wiht Q key.
+2. -l lost in long format. a total sum for all the file sizes is output on a line before the listing.
+-a Include directory entries whose names begin wiht a .
+3.option/command + left or right
+4.Command/control + e 
+5.Command/control + a
+6. Command/ control + w
+7. terminal is what lets you interact with the shell. The shell is the access to the operating system.
+8. absolute path is tpying the whole path from the root  to the loaction of the file or directory wanted
+9. relative path is comming from a parent directory
+10. a flag is a modifier to the command. I have used -a, -t, -S
+11.-r attempts to remove the file hierarchy. -f attempts to remove files without prompting for confirmation
