@@ -1,0 +1,8 @@
+1. git branch
+2. fast forward is when both files commits are done chronologicaly merged
+recursive is when there are two parents, the first chronological commit and the second at the target.
+3.Git cheakout
+4.Git -d
+5. If two developers are making changes to a code there is a merge conflict.
+
+
